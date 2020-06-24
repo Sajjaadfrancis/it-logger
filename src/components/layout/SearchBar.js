@@ -1,16 +1,16 @@
 import React from "react";
 
-const Searchbar = () => {
+const SearchBar = () => {
   return (
     <nav style={{ marginBottom: "30px" }} className="blue">
-      <div class="nav-wrapper">
+      <div className="nav-wrapper">
         <form>
-          <div class="input-field">
+          <div className="input-field">
             <input id="search" type="search" />
-            <label class="label-icon" for="search">
-              <i class="material-icons">search</i>
+            <label className="label-icon" htmlFor="search">
+              <i className="material-icons">search</i>
             </label>
-            <i class="material-icons">close</i>
+            <i className="material-icons">close</i>
           </div>
         </form>
       </div>
@@ -18,4 +18,4 @@ const Searchbar = () => {
   );
 };
 
-export default Searchbar;
+export default SearchBar;
